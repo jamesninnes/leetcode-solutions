@@ -1,3 +1,9 @@
+/**
+ * @description https://leetcode.com/problems/longest-palindromic-substring/
+ *
+ * @param letters
+ * @returns {string}
+ */
 function longestPalindrome(letters) {
     let longest = '', i;
     for (i = 0; i < letters.length; i++) {

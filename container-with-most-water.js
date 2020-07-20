@@ -1,5 +1,6 @@
 /**
- * @description An improved version,
+ * @description https://leetcode.com/problems/container-with-most-water/
+ * An improved version,
  * using a two pointer approach
  *
  * @param {number[]} heights
