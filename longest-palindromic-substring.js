@@ -7,10 +7,10 @@
 function longestPalindrome(letters) {
     let longest = '', i;
     for (i = 0; i < letters.length; i++) {
-        if ((letters.length - i)*2 <= longest.length) break;  // exit early if remaining can't surpass largest found
+        if ((letters.length - i) * 2 <= longest.length) break;  // exit early if remaining can't surpass largest found
 
         longest = scanOutward(letters, longest, i, i);   // odd length "ata"
-        longest = scanOutward(letters, longest, i+1, i); // even length "atta"
+        longest = scanOutward(letters, longest, i + 1, i); // even length "atta"
     }
     return longest;
 }
